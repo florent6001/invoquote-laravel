@@ -23,60 +23,23 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://invoquote.com/fr/</loc>
+  <loc>https://invoquote.com/conditions-generales-utilisation</loc>
   <lastmod>2023-08-26T01:51:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://invoquote.com/terms</loc>
+  <loc>https://invoquote.com/politique-confidentialite</loc>
   <lastmod>2023-08-26T01:51:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://invoquote.com/legal-notice</loc>
+  <loc>https://invoquote.com/mentions-legales</loc>
   <lastmod>2023-08-26T01:51:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://invoquote.com/privacy-policy</loc>
-  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://invoquote.com/reset-password</loc>
+  <loc>https://invoquote.com/password/reset</loc>
   <lastmod>2023-08-26T01:51:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://invoquote.com/fr/login</loc>
-  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://invoquote.com/fr/register</loc>
-  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://invoquote.com/fr/terms</loc>
-  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://invoquote.com/fr/legal-notice</loc>
-  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://invoquote.com/fr/privacy-policy</loc>
-  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://invoquote.com/fr/reset-password</loc>
-  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
-
 </urlset>
