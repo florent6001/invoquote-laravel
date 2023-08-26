@@ -139,6 +139,7 @@
     </div>
     @vite(['resources/js/app.js'])
     @livewireScripts
+    @include('partials.cookies')
 </body>
 
 </html>

@@ -110,4 +110,5 @@
         </div>
     </footer>
     @vite(['resources/js/app.js'])
+    @include('partials.cookies')
 </body>

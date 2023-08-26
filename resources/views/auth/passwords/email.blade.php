@@ -1,6 +1,6 @@
 @extends('layouts.guest')
 
-@secion('title', 'Mot de passe oublié ?')
+@section('title', 'Mot de passe oublié ?')
 
 @section('content')
     <section class="bg-primary py-5">

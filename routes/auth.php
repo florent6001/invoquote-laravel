@@ -9,7 +9,7 @@ Auth::routes();
 
 Route::get('/email/verify', function () {
     return view('auth.verify');
-})->middleware('auth')->name('verification.notice');
+})->name('verification.notice');
 
 Route::get('/email/verify/{id}/{hash}', function (EmailVerificationRequest $request) {
     $request->fulfill();
