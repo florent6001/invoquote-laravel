@@ -4,8 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Gérez vos activités freelance sans effort avec InvoQuote. Générez des devis et des factures professionnels, et gérez vos clients sans effort. Prenez le contrôle de votre entreprise et concentrez-vous sur ce que vous faites de mieux.">
 
     <title>@yield('title') - InvoQuote</title>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
 
     <!-- Styles -->
     @vite(['resources/sass/app.scss'])
@@ -93,7 +102,8 @@
                                 <a href="{{ route('mentions_legales') }}">Mentions légales</a>
                             </li>
                             <li>
-                                <a href="{{ route('politique_confidentialite') }}">Politiques de confidentialitée des données</a>
+                                <a href="{{ route('politique_confidentialite') }}">Politiques de confidentialitée des
+                                    données</a>
                             </li>
                             <li>
                                 <a href="{{ route('conditions_utilisation') }}">Conditions d'utilisations</a>
@@ -103,7 +113,8 @@
                 </div>
                 <div class="row text-center mt-3">
                     <p>
-                        Fait avec <i class="fa fa-heart"></i> par <a href="https://florent-vandroy.fr/">Florent Vandroy</a>
+                        Fait avec <i class="fa fa-heart"></i> par <a href="https://florent-vandroy.fr/">Florent
+                            Vandroy</a>
                     </p>
                 </div>
             </div>

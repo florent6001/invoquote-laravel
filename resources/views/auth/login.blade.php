@@ -13,6 +13,8 @@
                             <form method="POST" action="{{ route('login') }}">
                                 @csrf
 
+                                <h1 class="h2 mb-3">Se connecter</h1>
+
                                 <div class="row mb-3">
                                     <div class="col">
                                         <label for="email">{{ __('Email Address') }}</label>

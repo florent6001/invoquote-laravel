@@ -9,7 +9,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-12 col-12">
                         <div class="container p-5">
-                            <h2>Mot de passe oublié ?</h2>
+                            <h1 class="h2">Mot de passe oublié ?</h1>
                             <p>Entrez votre adresse email, nous allons vous envoyer un lien pour le réinitialiser.</p>
                             @if (session('status'))
                                 <div class="alert alert-success" role="alert">

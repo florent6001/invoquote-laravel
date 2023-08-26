@@ -104,7 +104,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-12 p-5">
-                        <img src="https://www.invoquote.com/images/illustration.svg" alt="" class="img-fluid p-5">
+                        <img src="https://www.invoquote.com/images/illustration.svg" alt="Login illustration" class="img-fluid p-5">
                     </div>
                 </div>
             </div>

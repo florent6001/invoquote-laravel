@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="pt-5">
-                <img class="img-fluid border rounded-top" src="{{ asset('img/dashboard.png') }}" alt="">
+                <img class="img-fluid border rounded-top" alt="Dashboard de InvoQuote" src="{{ asset('img/dashboard.png') }}" alt="">
             </div>
         </div>
     </section>
