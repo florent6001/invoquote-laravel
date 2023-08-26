@@ -19,7 +19,6 @@
                             <tr>
                                 <th>Numéro de facture</th>
                                 <th>Client</th>
-                                <th>Montant</th>
                                 <th>Date</th>
                                 <th>Status</th>
                                 <th>Action</th>
@@ -28,9 +27,8 @@
                         <tbody>
                             @foreach($invoices as $invoice)
                             <tr>
-                                <td>{{ $invoice->id }}</td>
+                                <td>{{ $invoice->invoice_number }}</td>
                                 <td>{{ $invoice->customer->full_name }}</td>
-                                <td>@amount($invoice->total_price_with_taxes)</td>
                                 <td>{{ date('d/m/Y', $invoice->createAt) }}</td>
                                 <td>@include('partials.invoice-state-label', ['state' => $invoice->state])</td>
                                 <td><a href="{{ route('dashboard.invoice.show', $invoice->id) }}" class="btn btn-sm btn-primary">Afficher</a></td>

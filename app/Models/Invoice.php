@@ -12,7 +12,8 @@ class Invoice extends Model
     protected $fillable = [
         'quotation_id',
         'customer_id',
-        'state'
+        'state',
+        'invoice_number'
     ];
 
     public function quotation()

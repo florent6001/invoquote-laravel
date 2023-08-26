@@ -4,7 +4,10 @@
 
 @section('content')
     <div class="d-flex align-items-center justify-content-between">
-        <h1 class="h2">Facture du {{ date('d/m/y', $invoice->create_at) }} - {{ $invoice->quotation->customer->full_name }}</h1>
+        <div>
+            <h1 class="h3">{{ $invoice->invoice_number }}</h1>
+            <p class="h4">Facture du {{ date('d/m/y', $invoice->create_at) }} - {{ $invoice->quotation->customer->full_name }}</p>
+        </div>
         <div class="d-flex align-items-center justify-content-between gap-2">
             <livewire:invoice-state :invoice="$invoice" />
             <a href="{{ route('dashboard.invoice.pdf', $invoice->id) }}" class="btn btn-primary">Version PDF</a>

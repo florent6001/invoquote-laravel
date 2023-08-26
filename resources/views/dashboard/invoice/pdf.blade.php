@@ -21,6 +21,7 @@
                 </td>
                 <td style="width: 50%; text-align: right; vertical-align: top;">
                     <p style="font-size: 16px;margin-top: 20px;">
+                        {{ $invoice->invoice_number }} <br>
                         Facture du {{ date('d/m/Y', $invoice->createAt) }} <br>
                     </p>
 

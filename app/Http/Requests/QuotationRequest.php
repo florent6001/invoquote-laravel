@@ -28,7 +28,7 @@ class QuotationRequest extends FormRequest
             'lines' => 'required|array|min:1', // Ensure at least one line is present
             'lines.*.name' => 'required|string|max:255',
             'lines.*.quantity' => 'required|integer|min:1',
-            'lines.*.unit_price' => 'required|numeric|min:0',
+            'lines.*.unit_price' => 'required|numeric',
         ];
 
         if (!$this->isMethod('put'))

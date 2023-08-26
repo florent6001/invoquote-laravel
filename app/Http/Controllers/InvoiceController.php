@@ -40,10 +40,22 @@ class InvoiceController extends Controller
     public function store(Request $request): RedirectResponse
     {
         $quotation = Quotation::findOrFail($request->quotation_id);
+        $startDate = now()->startOfMonth();
+        $active_business = Cookie::get('active_business');
+
+        $invoice_count = Quotation::whereHas('customer', function ($query) use ($active_business) {
+            $query->where('business_id', $active_business);
+        })
+            ->where('created_at', '>=', $startDate)
+            ->count();
+
+        $formattedCounter = str_pad($invoice_count, 3, '0', STR_PAD_LEFT);
+        $invoiceNumber = 'INV' . now()->format('my') . $formattedCounter;
         
         $invoice = Invoice::create([
             'quotation_id' => $quotation->id,
-            'customer_id' => $quotation->customer_id
+            'customer_id' => $quotation->customer_id,
+            'invoice_number' => $invoiceNumber
         ]);
         
         toastr()->success('Une facture associé à ce devis à été générée avec succès.');
