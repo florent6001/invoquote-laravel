@@ -1,0 +1,91 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import '@fortawesome/fontawesome-free/css/all';
+@import 'flag-icons/css/flag-icons';
+@import 'aos/dist/aos';
+
+.nav-pills {
+    gap: 5px;
+}
+
+.nav-pills .nav-item a {
+    display: flex;
+    align-items: center;
+}
+
+.nav-pills .fas {
+    @extend .mx-3;
+    width: 10%;
+}
+
+.nav-pills .active {
+    @extend .bg-secondary;
+}
+
+
+.beta-badge {
+    @extend .bg-white, .text-secondary, .fw-bold, .text-uppercase, .rounded-pill, .position-absolute;
+    top: -5px;
+    margin-right: -10px;
+    font-size: 10px;
+}
+
+header .navbar-dark {
+    min-height: 90px;
+}
+
+.bg-body {
+    background-color: #eee !important;
+}
+
+label {
+    @extend .mb-2;
+}
+
+.border-bottom {
+    border-width: 0px 0px 5px 0px !important;
+}
+
+trix-editor {
+  &.form-control {
+    min-height: 15rem;
+    height: auto;
+  }
+}
+
+
+.pagination {
+  @extend .align-items-center;
+}
+
+.pagination .current {
+  @extend .active;
+}
+
+.pagination a, em {
+  @extend .page-item, .page-link;
+}
+
+.previous_page, .next_page {
+  @extend .page-link, .page-item;
+}
+
+.invalid-feedback {
+    display: block;
+}
+
+footer * {
+  color: #fff;
+}
+
+footer ul, footer ul li, footer ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 0px;
+}
