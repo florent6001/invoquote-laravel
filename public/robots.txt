@@ -5,4 +5,4 @@ Disallow:
 Host: https://invoquote.com/
 
 # Sitemaps
-Sitemap: https://www.invoquote.com/sitemap.xml
+Sitemap: https://invoquote.com/sitemap.xml
