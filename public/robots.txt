@@ -1,2 +1,8 @@
 User-agent: *
 Disallow:
+
+# Host
+Host: https://invoquote.com/
+
+# Sitemaps
+Sitemap: https://www.invoquote.com/sitemap.xml
