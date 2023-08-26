@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://sitemaps.org/schemas/sitemap/0.9
+            http://sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://invoquote.com/</loc>
+  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://invoquote.com/login</loc>
+  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://invoquote.com/register</loc>
+  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://invoquote.com/fr/</loc>
+  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://invoquote.com/terms</loc>
+  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://invoquote.com/legal-notice</loc>
+  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://invoquote.com/privacy-policy</loc>
+  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://invoquote.com/reset-password</loc>
+  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://invoquote.com/fr/login</loc>
+  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://invoquote.com/fr/register</loc>
+  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://invoquote.com/fr/terms</loc>
+  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://invoquote.com/fr/legal-notice</loc>
+  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://invoquote.com/fr/privacy-policy</loc>
+  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://invoquote.com/fr/reset-password</loc>
+  <lastmod>2023-08-26T01:51:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
