@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-        content="Gérez vos activités freelance sans effort, générez des devis et des factures professionnels. Prenez le contrôle de votre entreprise et concentrez-vous sur ce que vous faites de mieux.">
+        content="Gérez votre activité freelance avec efficacité et professionnalisme. Générez des devis et des factures en quelques clics, et concentrez-vous sur ce que vous faites de mieux.">
 
     <title>@yield('title') - InvoQuote</title>
 
