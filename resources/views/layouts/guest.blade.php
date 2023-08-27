@@ -24,7 +24,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3">
             <div class="container">
-                <a class="navbar-brand text-white fw-bold position-relative" href="{{ route('home') }}">
+                <a class="navbar-brand text-white fw-bold position-relative" rel="dofollow" href="{{ route('home') }}">
                     InvoQuote
                     <span class="badge beta-badge" style="right: -10px">
                         Beta
@@ -38,23 +38,23 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('home') }}#features">Fonctionnalitées</a>
+                            <a class="nav-link" rel="dofollow" href="{{ route('home') }}#features">Fonctionnalitées</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('home') }}#pricing">Tarifs</a>
+                            <a class="nav-link" rel="dofollow" href="{{ route('home') }}#pricing">Tarifs</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         @auth
                             <li class="nav-item">
-                                <a class="ms-3 btn btn-light" href="{{ route('dashboard.index') }}">Accéder à mon espace</a>
+                                <a class="ms-3 btn btn-light" rel="dofollow" href="{{ route('dashboard.index') }}">Accéder à mon espace</a>
                             </li>
                         @else
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">Se connecter</a>
+                                <a class="nav-link" rel="dofollow" href="{{ route('login') }}">Se connecter</a>
                             </li>
                             <li class="nav-item">
-                                <a class="ms-3 btn btn-light" href="{{ route('register') }}">Créer un compte</a>
+                                <a class="ms-3 btn btn-light" rel="dofollow" href="{{ route('register') }}">Créer un compte</a>
                             </li>
                         @endauth
                     </ul>
