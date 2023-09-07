@@ -23,4 +23,4 @@
 <IfModule mod_headers.c>
     # Set the X-Content-Type-Options header to prevent MIME type sniffing.
     Header set X-Content-Type-Options "nosniff"
-</IfModule>
+</IfModule> 
